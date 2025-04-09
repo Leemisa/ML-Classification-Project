@@ -1,7 +1,7 @@
 import pandas as pd
 
-# Replace with your actual CSV file path
-df = pd.read_csv("C:/Users/leemi/OneDrive - North-West University/Honours Resources/School/2025/First Semester/ITRI 616 (Artificial Inteligence)/Assignment/ML_ Classification Project/ML-Classification-Project/Dataset/apartments_for_rent_classified_10K.csv")
+# Use on_bad_lines='skip' to skip lines with too many fields
+df = pd.read_csv(r"C:\Users\leemi\OneDrive - North-West University\Honours Resources\School\2025\First Semester\ITRI 616 (Artificial Inteligence)\Assignment\ML_ Classification Project\ML-Classification-Project\Dataset\apartments_for_rent_classified_10K.csv", encoding='ISO-8859-1', on_bad_lines='skip')
 
 # Show the first few rows of the full dataframe
 print("\n--- Full Data Preview ---")
