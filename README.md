@@ -28,8 +28,7 @@ To run this project in **Visual Studio Code**, make sure the following are insta
 - Python extension for VS Code
 - Dataset
 
-
-### References
+## References
 UCI Machine Learning Repository (2019) Apartment for Rent Classified. [online] Available at: https://doi.org/10.24432/C5X623 [Accessed 3 Apr. 2025].
 
 YouTube (2025) Download Kaggle Datasets via API in Python. [video] Available at: https://youtu.be/hzcV0hDkfzs [Accessed 3 Apr. 2025].
