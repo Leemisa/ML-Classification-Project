@@ -1,14 +1,38 @@
 # ML-Classification-Project
-##1. Setup
-The purpose of this project is to use classification data to develop a machine Learning project
-This project makes use of UCI Machine Learning Repositorty for the dataset thia is the link: https://archive.ics.uci.edu/dataset/555/apartment+for+rent+classified
-The dataset used will be of Apartment for Rent Classified
 
+## 1. Setup
 
+The purpose of this project is to use classification data to develop a machine learning model.
 
+This project utilizes the **UCI Machine Learning Repository** dataset titled:  
+**[Apartment for Rent Classified](https://archive.ics.uci.edu/dataset/555/apartment+for+rent+classified)**
 
+### Dataset Details
 
+- **Source**: UCI Machine Learning Repository  
+- **Dataset Name**: Apartment for Rent Classified  
+- **DOI**: [https://doi.org/10.24432/C5X623](https://doi.org/10.24432/C5X623)
 
+The dataset is accessed using the `ucimlrepo` Python package, which simplifies downloading and loading data directly into Python.
+
+---
+
+## 2. Requirements
+
+To run this project in **Visual Studio Code**, make sure the following are installed:
+
+### Prerequisites
+
+- Python 3.6+
+- Visual Studio Code
+- Python extension for VS Code
+
+### Setup Instructions
+
+1. **Clone this repository** (if hosted on GitHub):
+   ```bash
+   git clone https://github.com/yourusername/ML-Classification-Project.git
+   cd ML-Classification-Project
 
 
 
