@@ -26,21 +26,18 @@ To run this project in **Visual Studio Code**, make sure the following are insta
 - Python 3.6+
 - Visual Studio Code
 - Python extension for VS Code
-
-### Setup Instructions
-
-1. **Clone this repository** (if hosted on GitHub):
-   ```bash
-   git clone https://github.com/yourusername/ML-Classification-Project.git
-   cd ML-Classification-Project
+- Dataset
 
 
+### References
+UCI Machine Learning Repository (2019) Apartment for Rent Classified. [online] Available at: https://doi.org/10.24432/C5X623 [Accessed 3 Apr. 2025].
 
+YouTube (2025) Download Kaggle Datasets via API in Python. [video] Available at: https://youtu.be/hzcV0hDkfzs [Accessed 3 Apr. 2025].
 
-References
-"Apartment for Rent Classified," UCI Machine Learning Repository, 2019. [Online]. Available: https://doi.org/10.24432/C5X623.
-YouTube. (2025). Download Kaggle Datasets via API in Python. Available at: https://youtu.be/hzcV0hDkfzs [Accessed 3 Apr. 2025].
-YouTube. (2023). How to Install Git & Use Git in Visual Studio Code. Available at: https://youtu.be/3Tsaxxv9sls [Accessed 3 Apr. 2025].
-YouTube. (2023). How to Use Git in Visual Studio Code. Available at: https://youtu.be/z5jZ9lrSpqk [Accessed 3 Apr. 2025].
-YouTube. (2025). How to Find and Use Kaggle Datasets in Your Project. Available at: https://youtu.be/krkS9u140tM [Accessed 3 Apr. 2025].
-YouTube. (2020). How to Download Kaggle Datasets using the Kaggle API. Available at: https://youtu.be/gkEbaMgvLs8 [Accessed 3 Apr. 2025].
+YouTube (2023) How to Install Git & Use Git in Visual Studio Code. [video] Available at: https://youtu.be/3Tsaxxv9sls [Accessed 3 Apr. 2025].
+
+YouTube (2023) How to Use Git in Visual Studio Code. [video] Available at: https://youtu.be/z5jZ9lrSpqk [Accessed 3 Apr. 2025].
+
+YouTube (2025) How to Find and Use Kaggle Datasets in Your Project. [video] Available at: https://youtu.be/krkS9u140tM [Accessed 3 Apr. 2025].
+
+YouTube (2020) How to Download Kaggle Datasets using the Kaggle API. [video] Available at: https://youtu.be/gkEbaMgvLs8 [Accessed 3 Apr. 2025].
