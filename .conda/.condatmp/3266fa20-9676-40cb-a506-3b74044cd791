@@ -1,0 +1,13 @@
+prefix=c:/Users/leemi/OneDrive - North-West University/Honours Resources/School/2025/First Semester/ITRI 616 (Artificial Inteligence)/Assignment/ML_ Classification Project/ML-Classification-Project/.conda/Library
+exec_prefix=c:/Users/leemi/OneDrive - North-West University/Honours Resources/School/2025/First Semester/ITRI 616 (Artificial Inteligence)/Assignment/ML_ Classification Project/ML-Classification-Project/.conda/Library
+libdir=c:/Users/leemi/OneDrive - North-West University/Honours Resources/School/2025/First Semester/ITRI 616 (Artificial Inteligence)/Assignment/ML_ Classification Project/ML-Classification-Project/.conda/Library/lib
+sharedlibdir=c:/Users/leemi/OneDrive - North-West University/Honours Resources/School/2025/First Semester/ITRI 616 (Artificial Inteligence)/Assignment/ML_ Classification Project/ML-Classification-Project/.conda/Library/lib
+includedir=c:/Users/leemi/OneDrive - North-West University/Honours Resources/School/2025/First Semester/ITRI 616 (Artificial Inteligence)/Assignment/ML_ Classification Project/ML-Classification-Project/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
