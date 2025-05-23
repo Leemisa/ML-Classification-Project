@@ -57,14 +57,7 @@ This project applies machine learning classification techniques to predict inter
 - Integrate FIFA rankings
 - Explore deep learning (LSTMs)
 - Add player/team performance stats
-"""
 
-# Save to file
-readme_path = "/mnt/data/README.md"
-with open(readme_path, "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-readme_path
 
 ## References
 UCI Machine Learning Repository (2019) Apartment for Rent Classified. [online] Available at: https://doi.org/10.24432/C5X623 [Accessed 3 Apr. 2025].
