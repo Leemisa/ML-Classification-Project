@@ -1,32 +1,73 @@
-# ML-Classification-Project
+# Save the README content as a Markdown file for GitHub
 
-## 1. Setup
+readme_content = """
+# Football Match Outcome Prediction Using Machine Learning
 
-The purpose of this project is to use classification data to develop a machine learning model.
+## 📘 Project Overview
 
-This project utilizes the **UCI Machine Learning Repository** dataset titled:  
-**[Apartment for Rent Classified](https://archive.ics.uci.edu/dataset/555/apartment+for+rent+classified)**
+This project applies machine learning classification techniques to predict international football match outcomes (Win, Draw, or Loss) based on historical match data. The models implemented include Logistic Regression and Gradient Boosting, both evaluated with multiple performance metrics.
 
-### Dataset Details
+## 🎯 Objectives
 
-- **Source**: UCI Machine Learning Repository  
-- **Dataset Name**: Apartment for Rent Classified  
-- **DOI**: [https://doi.org/10.24432/C5X623](https://doi.org/10.24432/C5X623)
+- Build a classification model to predict match outcomes
+- Understand the impact of pre-match factors on prediction
+- Compare baseline (Logistic Regression) and advanced (Gradient Boosting) models
 
-The dataset is accessed using the `ucimlrepo` Python package, which simplifies downloading and loading data directly into Python.
+## 📂 Dataset
 
----
+- Source: Open dataset covering international men's matches (1872–2025)
+- Observations: 48,208 matches
+- Features: Teams, tournament type, neutral venue, year, and engineered features
 
-## 2. Requirements
+## 🛠️ Features Used
 
-To run this project in **Visual Studio Code**, make sure the following are installed:
+- `home_team`, `away_team`, `tournament`
+- `home_advantage`: binary indicator for neutral venue
+- `year`: extracted from date
+- `is_final`, `is_friendly`: binary tournament context features
 
-### Prerequisites
+## 🧪 Models Implemented
 
-- Python 3.6+
-- Visual Studio Code
-- Python extension for VS Code
-- Dataset
+- **Logistic Regression**: Multinomial, serves as a linear baseline
+- **Gradient Boosting Classifier**: Non-linear, more powerful for tabular data
+
+## 🔍 Evaluation Metrics
+
+- Accuracy, Precision, Recall, F1-Score
+- Confusion Matrix
+- ROC & Precision-Recall Curves
+- Cross-validation (5-fold)
+
+## 💡 Key Insights
+
+- Gradient Boosting outperformed Logistic Regression (~59% vs. ~53% accuracy)
+- Feature engineering (tournament type, venue, year) improved performance
+- ROC and PR curves highlighted class separation quality
+
+## ⚙️ Tech Stack
+
+- Python 3.10
+- Libraries: Pandas, Scikit-learn, Matplotlib, Seaborn, XGBoost, Imbalanced-learn
+
+## 💻 Getting Started
+
+1. Clone this repository
+2. Install dependencies from `requirements.txt`
+3. Run `notebook.ipynb` in Jupyter
+
+## 📈 Future Work
+
+- Integrate FIFA rankings
+- Explore deep learning (LSTMs)
+- Add player/team performance stats
+"""
+
+# Save to file
+readme_path = "/mnt/data/README.md"
+with open(readme_path, "w", encoding="utf-8") as f:
+    f.write(readme_content)
+
+readme_path
 
 ## References
 UCI Machine Learning Repository (2019) Apartment for Rent Classified. [online] Available at: https://doi.org/10.24432/C5X623 [Accessed 3 Apr. 2025].
