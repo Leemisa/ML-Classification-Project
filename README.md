@@ -1,6 +1,3 @@
-# Save the README content as a Markdown file for GitHub
-
-readme_content = """
 # Football Match Outcome Prediction Using Machine Learning
 
 ## 📘 Project Overview
